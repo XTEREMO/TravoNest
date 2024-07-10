@@ -1,0 +1,79 @@
+.add-user-main{
+    display: flex;
+}
+
+.add-user-container{
+    padding-top: 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.add-user{
+    background-color: rgb(218, 218, 218);
+    border-radius: 10px;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.ProfileBox{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.GalleryBox{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.add-user-details1{
+    all: unset;
+    background-color: rgb(255, 255, 255);
+    width: 25vw;
+    height: 40px;
+    padding-left: 20px;
+    font-weight: 900;
+}
+.add-user-details2{
+    all: unset;
+    background-color: rgb(255, 255, 255);
+    width: 15vw;
+    height: 40px;
+    text-align: center;
+    font-weight: 900;
+    color: rgb(186, 186, 186);
+}
+
+.add-user-btn-at-admin{
+    all:unset;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #008eec;
+    color: #fff;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.add-user-btn-at-admin:hover{
+    background-color: #001dad;
+    color: #fff;
+    transition-duration: 1s;
+}
