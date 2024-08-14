@@ -1,0 +1,32 @@
+.registration h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(120, 120, 120);
+}
+
+.registration form input{
+    all: unset;
+    width: 30vw;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #00bbee;
+}
+
+.registration form select{
+    width: 20vw;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #00bbee;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.registration form button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #00bbee;
+}

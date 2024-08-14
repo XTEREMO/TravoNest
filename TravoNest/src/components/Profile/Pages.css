@@ -1,0 +1,31 @@
+.profile-gallery{
+    margin-top: 100px;
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.profile-gallery-images{
+    width: 19vw;
+    height: 19vw;
+    border-radius: 5px;
+    margin: 0.5vw;
+}
+
+.add-gallery-img{
+    width: 19vw;
+    height: 19vw;
+    margin: 0.5vw;
+}
+
+.add-in-gallery{
+    width: 19vw;
+    height: 19vw;
+    margin: 0.5vw;
+    background-color:rgb(224, 224, 224) ;
+    border-radius: 5px;
+    border: 2px dashed #a0a0a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

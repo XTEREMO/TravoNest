@@ -1,0 +1,80 @@
+.profile-picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.profile-picture-box{
+    position: absolute;
+    top:350px;
+    left:250px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-components-list{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0px;
+}
+.photos{
+    all: unset;
+    width: 200px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-color: aliceblue;
+}
+.upcoming{
+    all: unset;
+    width: 200px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-color: aliceblue;
+}
+.bookmark{
+    all: unset;
+    width: 200px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-color: aliceblue;
+}
+.past{
+    all: unset;
+    width: 200px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-color: aliceblue;
+}
+.profile-components-list li:hover{
+    background-color: antiquewhite;
+}
+
+.xxx{
+    background-color:aqua;
+}

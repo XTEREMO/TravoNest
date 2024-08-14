@@ -1,0 +1,115 @@
+.nav-body{
+    position: fixed;
+    z-index: 1;
+}
+.back{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.back-top{
+    background-color:rgb(0, 216, 216);
+    width: 100vw;
+    height: 5vh;
+}
+
+.back-bottom{
+    
+    background-color: #fff;
+    width: 100vw;
+    height: 5vh;
+}
+.nav-bar{
+    position: absolute;
+    top:0;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+}
+
+
+.nav-logo{
+    width: 25vw;
+    height: 10vh;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 30px;
+}
+
+
+.nav-menu{
+    width: 50vw;
+    height: 10vh;
+    background-color: rgb(0, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.nav-sign-log{
+    width: 25vw;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 30px;
+}
+.nav-bar ul{
+    padding: 0;
+    margin: 0;
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar li{
+    all:unset;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-bar a:hover{
+    text-decoration: none;
+}
+.nav-menu a{
+    font-size: 20px;
+    font-weight: 800;
+    color:rgb(255, 255, 255);
+}
+.nav-menu a:hover{
+    color:rgb(187, 0, 255);
+}
+.nav-sign-log a{
+    font-size: 20px;
+    font-weight: 800;
+    color:rgba(113, 113, 113, 0.785);
+}
+.nav-sign-log a:hover{
+    color:rgb(34, 146, 51);
+}
+
+
+.log-sign-btn{
+    width: 15vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.span-1{
+    color: black;
+}
+
+.span-2{
+    color: rgb(225, 225, 9);
+}

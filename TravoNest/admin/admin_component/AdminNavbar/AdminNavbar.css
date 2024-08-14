@@ -1,0 +1,12 @@
+.admin-navbar{
+    min-width: 20vw;
+    max-width: 20vw;
+    height: 100vh;
+    background-color: rgb(3, 21, 48);
+    cursor: default;
+}
+
+.list:hover{
+    all: unset;
+}
+

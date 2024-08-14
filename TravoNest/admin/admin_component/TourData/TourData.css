@@ -1,0 +1,41 @@
+.tour-data-table{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}::-webkit-scrollbar{
+    display: none;
+}
+
+.tour-data-table table{
+    background-color: aliceblue;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 10px #9c9c9c;
+}
+.tour-data-table td{
+    max-width: 200px;
+    min-width: 150px;
+    border: 1px solid #000;
+    text-align: center;
+    overflow: scroll;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.tour-data-table th{
+    max-width: 200px;
+    min-width: 150px;
+    border: 1px solid #000;
+    height: 50px;
+    text-align: center;
+    overflow: scroll;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

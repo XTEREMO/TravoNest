@@ -1,0 +1,229 @@
+.about-container{
+    padding-top: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.about-body{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-head-p{
+    text-align: center;
+}
+
+
+/* 
+    SEC-1      css..............................................
+*/
+
+.about-sec-1 h2{
+    margin-top: 10vh;
+    font-size: 3vw;
+    color: rgb(93, 93, 93);
+    margin-left: 5vw;
+}
+
+.about-pic-1{
+    position: absolute;
+    top:50vh;
+    left: 40vw;
+}
+
+.about-pic-1 img{
+    width: 60vw;
+}
+
+
+
+
+.weather{
+    width: 25vw;
+    height: 15vw;
+    border-right:  1px solid black;
+    border-bottom:  1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px -1px yellow;
+    margin-top: 3vw;
+
+}
+
+.weather img{
+    width: 5vw;
+}
+.weather h5{
+    position: relative;
+    top:-4vw;
+    left: 6vw;
+    font-size:2vw;
+}
+.weather p{
+    position: relative;
+    top:-3vw;
+    left: 2.5vw;
+    font-size: 1.2vw;
+}
+
+
+
+
+
+.guide{
+    width: 25vw;
+    height: 15vw;
+    border-right:  1px solid black;
+    border-bottom:  1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px -1px yellow;
+    margin-top: 5vw;
+    margin-left: 20vw;
+}
+
+.guide img{
+    width: 5vw;
+}
+.guide h5{
+    position: relative;
+    top:-4vw;
+    left: 10vw;
+    font-size:2vw;
+}
+.guide p{
+    position: relative;
+    top:-3vw;
+    left: 1vw;
+    font-size: 1.2vw;
+}
+
+
+
+
+
+
+
+.customization{
+    width: 25vw;
+    height: 15vw;
+    border-right:  1px solid black;
+    border-bottom:  1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px -1px yellow;
+    margin-top: 5vw;
+    margin-left: 40vw;
+}
+
+.customization img{
+    width: 5vw;
+}
+.customization h5{
+    position: relative;
+    top:-4vw;
+    left: 7vw;
+    font-size:2vw;
+}
+.customization p{
+    position: relative;
+    top:-3vw;
+    left: 1vw;
+    font-size: 1.2vw;
+}
+
+
+
+
+
+
+.image-box{
+    width: 7vw;
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(233, 233, 233);
+    box-shadow:inset 0px 0px 10px 1px rgb(157, 157, 157);
+    position: relative;
+    top:-2.2vw;
+    left:-2.2vw;
+}
+
+
+
+/* 
+    SEC-2      css..............................................
+*/
+
+.about-sec-2{
+    margin-top: 20vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    margin-bottom: 50px;
+}
+
+.about-sec-2-row-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec-2-row-1-content{
+    font-size: 15px;
+}
+.sec-2-row-1-content h2{
+    font-weight: 700;
+}
+.sec-2-row-1-content span{
+    color: #E1E109;
+}
+.sec-2-row-1-content p{
+    text-align: center;
+    width: 26vw;
+}
+.p-container-1{
+    border-top: 5px solid rgb(104, 104, 104);
+    border-top-right-radius: 20px;
+    border-bottom: 5px solid yellow;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+
+.about-sec-2-row-2{
+    display: flex;
+    justify-content: space-around;
+}
+.sec-2-row-2-content{
+    font-size: 15px;
+    width: 20vw;
+}
+.sec-2-row-2-content h2{
+    font-weight: 700;
+    font-size: 1.9vw;
+}
+.sec-2-row-2-content span{
+    color: #E1E109;
+}
+.sec-2-row-2-content p{
+    text-align: center;
+    width: 18vw;
+}
+.p-container-2{
+    border-top: 5px solid rgb(104, 104, 104);
+    border-top-right-radius: 20px;
+    border-bottom: 5px solid yellow;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
